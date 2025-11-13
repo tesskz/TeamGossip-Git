@@ -224,7 +224,7 @@ var quizzes = map[string]Quiz{
 				CorrectIndex: 0,
 			},
 			{
-				Text: "En data, que représente une “feature” (caractéristique) ?",
+				Text: "",
 				Choices: []string{
 					"Une ligne du code source",
 					"Une variable d’entrée utilisée par le modèle",
