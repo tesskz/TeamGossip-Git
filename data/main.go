@@ -81,7 +81,7 @@ var quizzes = map[string]Quiz{
 			},
 		},
 	},
-	"cyber": {
+	"cyber": { // question Cyber
 		ID:    "cyber",
 		Title: "Quiz Cybersécurité",
 		Questions: []Question{
