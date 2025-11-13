@@ -62,7 +62,7 @@ var quizzes = map[string]Quiz{
 			{
 				Text:         "Quel protocole est utilisé pour sécuriser la navigation sur le Web ?",
 				Choices:      []string{"HTTP", "FTP", "HTTPS"},
-				CorrectIndex: 2,
+				CorrectIndex: 2,3
 			},
 			{
 				Text:         "Quelle est l’extension classique d’un fichier source Go ?",
