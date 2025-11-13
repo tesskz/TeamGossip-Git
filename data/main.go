@@ -55,7 +55,7 @@ var quizzes = map[string]Quiz{
 				CorrectIndex: 0,
 			},
 			{
-				Text:         "Quel périphérique est principalement utilisé pour saisir du texte ?",
+				Text:         "Quel périphérique est principalement utilisé pour saisir du texte et dde ?",
 				Choices:      []string{"La souris", "Le clavier", "L’écran"},
 				CorrectIndex: 1,
 			},
