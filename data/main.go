@@ -242,7 +242,7 @@ var quizzes = map[string]Quiz{
 				CorrectIndex: 2,
 			},
 			{
-				Text: "",
+				Text: "Un fichier CSV sert en général à :",
 				Choices: []string{
 					"Stocker des images",
 					"Stocker des données tabulaires en texte brut",
