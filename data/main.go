@@ -79,6 +79,12 @@ var quizzes = map[string]Quiz{
 				Choices:      []string{"Random Access Memory", "Read-Only Memory", "Rapid Action Module"},
 				CorrectIndex: 0,
 			},
+
+			{
+				Text:         "Que signifie JSPPP ?",
+				Choices:      []string{"Random Access Memory", "Read-Only Memory", "Rapid Action Module"},
+				CorrectIndex: 0,
+			},
 		},
 	},
 	"cyber": {
@@ -182,7 +188,7 @@ var quizzes = map[string]Quiz{
 		Title: "Quiz Data & Intelligence Artificielle",
 		Questions: []Question{
 			{
-				Text: "Qu’est-ce qu’un « dataset » ?",
+				Text: "",
 				Choices: []string{
 					"Un algorithme d’IA",
 					"Un ensemble de données utilisé pour l’analyse ou l’apprentissage",
