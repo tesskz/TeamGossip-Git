@@ -82,7 +82,7 @@ var quizzes = map[string]Quiz{
 		},
 	},
 	"cyber": {
-		ID:    "cyber",
+		ID:    "cybersécurité",
 		Title: "Quiz Cybersécurité",
 		Questions: []Question{
 			{
