@@ -251,7 +251,7 @@ var quizzes = map[string]Quiz{
 				CorrectIndex: 1,
 			},
 			{
-				Text: "Qu’est-ce qu’un jeu d’entraînement (training set) ?",
+				Text: "",
 				Choices: []string{
 					"Les données utilisées pour apprendre le modèle",
 					"Les données jamais vues utilisées pour le tester",
