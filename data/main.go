@@ -188,7 +188,7 @@ var quizzes = map[string]Quiz{
 		Title: "Quiz Data & Intelligence Artificielle",
 		Questions: []Question{
 			{
-				Text: "",
+				Text: "Qu’est-ce qu’un « dataset » ?",
 				Choices: []string{
 					"Un algorithme d’IA",
 					"Un ensemble de données utilisé pour l’analyse ou l’apprentissage",
