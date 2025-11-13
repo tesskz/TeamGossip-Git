@@ -22,7 +22,7 @@ type Quiz struct {
 
 var quizzes = map[string]Quiz{
 	"info": {
-		ID:    "info",
+		ID:    "info", // Partie Info du Quiz
 		Title: "Quiz Informatique Générale",
 		Questions: []Question{
 			{
