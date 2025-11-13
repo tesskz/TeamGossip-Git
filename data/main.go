@@ -215,7 +215,7 @@ var quizzes = map[string]Quiz{
 				CorrectIndex: 1,
 			},
 			{
-				Text: "Quel type d’algorithme peut être utilisé pour classer des e‑mails (spam / non spam) ?",
+				Text: "",
 				Choices: []string{
 					"Arbre de décision",
 					"Tri à bulles",
