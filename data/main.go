@@ -206,7 +206,7 @@ var quizzes = map[string]Quiz{
 				CorrectIndex: 0,
 			},
 			{
-				Text: "",
+				Text: "Quel est l’objectif principal de l’apprentissage supervisé ?",
 				Choices: []string{
 					"Générer du code aléatoire",
 					"Apprendre à partir de données étiquetées pour prédire ou classer",
