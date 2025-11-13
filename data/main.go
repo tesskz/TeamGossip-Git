@@ -260,7 +260,7 @@ var quizzes = map[string]Quiz{
 				CorrectIndex: 0,
 			},
 			{
-				Text: "Lequel de ces exemples n’est PAS une application typique de l’IA ?",
+				Text: "",
 				Choices: []string{
 					"La reconnaissance d’images",
 					"La traduction automatique de textes",
