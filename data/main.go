@@ -197,7 +197,7 @@ var quizzes = map[string]Quiz{
 				CorrectIndex: 1,
 			},
 			{
-				Text: "",
+				Text: "Que signifie « IA » ?",
 				Choices: []string{
 					"Intelligence Artificielle",
 					"Internet Automatisé",
