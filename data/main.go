@@ -269,7 +269,7 @@ var quizzes = map[string]Quiz{
 				CorrectIndex: 2,
 			},
 			{
-				Text: "",
+				Text: "Quel risque peut apparaître si les données d’entraînement sont biaisées ?",
 				Choices: []string{
 					"Le modèle sera parfaitement neutre",
 					"Le modèle pourra être injuste envers certains groupes",
