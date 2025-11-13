@@ -23,7 +23,7 @@ type Quiz struct {
 var quizzes = map[string]Quiz{
 	"info": {
 		ID:    "info",
-		Title: "Quiz Informatique Générale",
+		Title: "Quiz Tech Sphere",
 		Questions: []Question{
 			{
 				Text:         "Quel est le système d’exploitation libre le plus utilisé ?",
