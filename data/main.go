@@ -233,7 +233,7 @@ var quizzes = map[string]Quiz{
 				CorrectIndex: 1,
 			},
 			{
-				Text: "À quoi sert principalement le langage SQL ?",
+				Text: "",
 				Choices: []string{
 					"Créer des pages web",
 					"Programmer des microcontrôleurs",
