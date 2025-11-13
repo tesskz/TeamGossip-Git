@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>GoQuiz - Accueil</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1>GOQUIZ</h1>
+      <p>PROJET ABDEL LINA RANYA</p>
+    </header>
+
+    <main>
+      <section class="screen active">
+        <h2>Choisis un quiz</h2>
+        <p>Chaque thème contient 10 questions. Le quiz est réussi à partir de 7 bonnes réponses.</p>
+        <div class="categories">
+          {{range .Quizzes}}
+            <form method="GET" action="/quiz" class="category-form">
+              <input type="hidden" name="topic" value="{{.ID}}">
+              <button type="submit" class="category-btn">
+                {{.Title}}
+              </button>
+            </form>
+          {{end}}
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <small>Quiz - Team GOSSIP</small>
+    </footer>
+  </div>
+</body>
+</html>

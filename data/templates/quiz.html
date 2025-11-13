@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>{{.Quiz.Title}}</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1>Quiz TECH SPHÈRE</h1>
+      <p>{{.Quiz.Title}}</p>
+    </header>
+
+    <main>
+      <section class="screen active">
+        <div class="quiz-header">
+          <a href="/" class="link-btn">&larr; Retour</a>
+          <span>Question {{add .QuestionIndex 1}} / {{.TotalQuestions}}</span>
+          <span>Score actuel : {{.Score}}</span>
+        </div>
+
+        <div class="card">
+          <h2 class="question-text">{{.Question.Text}}</h2>
+          <form method="POST" action="/quiz" class="answers">
+            <input type="hidden" name="topic" value="{{.Quiz.ID}}">
+            <input type="hidden" name="qIndex" value="{{.QuestionIndex}}">
+            <input type="hidden" name="score" value="{{.Score}}">
+
+            {{range $idx, $choice := .Question.Choices}}
+              <label class="answer-option">
+                <input type="radio" name="answer" value="{{$idx}}" required>
+                <span>{{add $idx 1}}. {{$choice}}</span>
+              </label>
+            {{end}}
+
+            <div class="controls">
+              <button type="submit" class="primary-btn">Valider</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <small>Réponds aux 10 questions, le but est d’atteindre au moins 7 bonnes réponses.</small>
+    </footer>
+  </div>
+</body>
+</html>

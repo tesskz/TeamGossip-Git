@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Résultat - {{.Quiz.Title}}</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1>GOQUIZ</h1>
+      <p>Résultat du quiz : {{.Quiz.Title}}</p>
+    </header>
+
+    <main>
+      <section class="screen active">
+        <div class="card">
+          <h2>Résultat</h2>
+          <p>Tu as obtenu {{.Score}} bonnes réponses sur {{.Total}}.</p>
+
+          {{if .Success}}
+            <p class="result-success">✅ Quiz réussi (bravo, tu as au moins 7/10) !</p>
+          {{else}}
+            <p class="result-fail">❌ Quiz insuffisant (il faut au moins 7/10).</p>
+          {{end}}
+
+          <div class="controls">
+            <form method="GET" action="/quiz">
+              <input type="hidden" name="topic" value="{{.Quiz.ID}}">
+              <button type="submit" class="primary-btn">Rejouer ce quiz</button>
+            </form>
+            <a href="/" class="secondary-btn link-as-button">Retour au menu</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <small>Tu peux rejouer autant de fois que tu veux.</small>
+    </footer>
+  </div>
+</body>
+</html>
