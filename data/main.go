@@ -167,7 +167,7 @@ var quizzes = map[string]Quiz{
 				CorrectIndex: 0,
 			},
 			{
-				Text: "Que faire en cas de mail suspect demandant ton mot de passe ?",
+				Text: "Que faire en cas de mail sus demandant ton mot de passe ?",
 				Choices: []string{
 					"Cliquer sur le lien pour vérifier",
 					"Répondre avec un faux mot de passe",
