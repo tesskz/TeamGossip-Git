@@ -45,7 +45,7 @@ var quizzes = map[string]Quiz{
 				CorrectIndex: 0,
 			},
 			{
-				Text:         "Quelle unité est utilisée pour mesurer la fréquence d’un processeur ??",
+				Text:         "Quelle unité est utilisée pour mesurer la fréquence d’un processeur ?",
 				Choices:      []string{"Hertz (Hz)", "Watt (W)", "Octet (B)"},
 				CorrectIndex: 0,
 			},
