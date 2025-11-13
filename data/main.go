@@ -31,7 +31,7 @@ var quizzes = map[string]Quiz{
 				CorrectIndex: 2,
 			},
 			{
-				Text:         "Quel langage est-il compilé ?",
+				Text:         "Quel langage est compilé ?",
 				Choices:      []string{"Python", "Go", "JavaScript"},
 				CorrectIndex: 1,
 			},
